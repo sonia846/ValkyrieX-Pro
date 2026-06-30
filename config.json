@@ -1,1 +1,48 @@
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  "_author": "Sonia",
+  "_tool": "ValkyrieX Pro",
+  "_version": "1.0.0",
+  "gemini_api_key": "YOUR_GEMINI_API_KEY_HERE",
+  "scan_settings": {
+    "concurrency_limit": 25,
+    "request_timeout": 10,
+    "rate_limit_delay": 0.3,
+    "follow_redirects": true,
+    "verify_ssl": false
+  },
+  "report_settings": {
+    "output_formats": ["html", "txt", "json"],
+    "author_name": "Sonia",
+    "save_directory": "reports"
+  },
+  "modules": {
+    "xss_scanner": true,
+    "sqli_scanner": true,
+    "port_scanner": true,
+    "dir_bruteforcer": true,
+    "header_auditor": true,
+    "cors_auditor": true,
+    "ssl_auditor": true,
+    "open_redirect": true,
+    "crlf_tester": true,
+    "jwt_analyzer": true,
+    "secret_hunter": true,
+    "subdomain_takeover": true,
+    "waf_detector": true
+  }
+}
+

@@ -1,0 +1,11 @@
+# ValkyrieX Pro - Sonia
+*.log
+*.pyc
+__pycache__/
+reports/output/*.html
+reports/txt/*.txt
+reports/json/*.json
+reports/docx/*.docx
+config.json
+.env
+*.key
